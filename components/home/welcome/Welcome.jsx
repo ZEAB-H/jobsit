@@ -19,10 +19,10 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
   const [activeJobType, setActiveJobType] = useState("Full-time");
 
   return (
-    <View>
+    <View>          
       <View style={styles.container}>
-        <Text style={styles.userName}>Hello Adrian</Text>
-        <Text style={styles.welcomeMessage}>Find your perfect job</Text>
+        <Text style={styles.userName}>Hello Abel</Text>
+        <Text style={styles.welcomeMessage}>Find your perfect job!</Text>
       </View>
 
       <View style={styles.searchContainer}>
